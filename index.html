@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Manual html</title>
+</head>
+<body>
+	<header>
+		<h1><center>Etiquetas HTML</center></h1>
+	</header>
+	<h2>Etiquetas</h2>
+	<p>
+		Antes de profundizar en este concepto, debemos aclarar que el código HTML hace referencia al lenguaje que se emplea para el desarrollo de páginas web. Dicho código se compone por diferentes etiquetas que el navegador interpreta y a través de las cuales se puede crear o modificar la apariencia de un documento.
+	</p>
+	<br>
+	<h2>Etiqueta &lt; a &gt; &lt; /a &gt; </h2>
+	<p>Esta etiqueta crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL. Su sintaxis es la siguiente:</p>
+	<p>&lt; a href="https://www.youtube.com" &gt; Enlace a una web &lt; /a &gt;</p>
+	<p><a href="https://www.youtube.com">Enlace a una web</a></p>
+	<p>&lt; a href="documento.html" &gt; Enlace a un documento &lt; /a &gt;</p>
+	<p><a href="documento.html">Enlace a un documento</a></p>
+	<p>&lt; a href="C:\Users\USER\Desktop\miimagen.png" &gt; Enlace a una imagen &lt; /a &gt;</p>
+	<p><a href="miimagen.png">Enlace a una imagen</a></p>
+	<h2>Etiqueta &lt; del &gt; &lt; /del &gt; </h2>
+	<p>Esta etiqueta tacha todo el texto que esta dentro de el, su sintaxis es:</p>
+	<p>&lt; del &gt; Este texto sera tachado &lt; /del &gt;</p>
+	<p><del>Este texto sera tachado</del></p>
+	<h2>Etiqueta &lt; button &gt; &lt; /button &gt; </h2>
+	<p>La etiqueta de HTML &lt; button &gt; representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar, su sintaxis es:</p>
+	<p>&lt; button name="boton" &gt; Este es un boton &lt; /button &gt;</p>
+	<p><button name="boton">Este es un boton</button></p>
+	<h2>Etiqueta &lt; dialog &gt; &lt; /dialog &gt;</h2>
+	<p>Esta etiqueta permite al usario enviar dialogos para mostrar un mensaje determinado, su sintaxis es:</p>
+	&lt; dialog open &gt;
+    &lt; h2 &gt;¡ATENCIÓN! &lt; /h2 &gt;
+    &lt; p &gt; Se ha producido un problema en la aplicación. &lt; /p &gt;
+	&lt; /dialog &gt;
+	<br>
+	<br>
+	<dialog open>
+    <h2>¡ATENCIÓN!</h2>
+    <p>Se ha producido un problema en la aplicación.</p>
+	</dialog>
+	<br><br><br><br><br><br><br><br>
+	<h2>Etiqueta &lt; img &gt; </h2>
+	<p>Esta etiqueta sirve para colocar una imagen. Este tag, a diferencia de la gran mayoría de los tags de html, no necesita un cierre. Va acompañado de diferentes atributos que te vamos a explicar a continuación.</p>
+	<p>"src:" que indica la ruta del archivo.</p>
+	<p>"alt" que describe textualmente la imagen al posicionarse sobre ella.</p>
+	<p>"width" que estable el ancho del imagen</p>
+	<p>"height" que establece la altura de la imagen</p>
+	<p>&lt; img src="C:\Users\USER\Desktop\miimagen.png" alt="perro sacando lengua" width="200" height="200" &gt;</p>
+	<img src="miimagen.png" alt="perro sacando lengua" width="200" height="200">
+	<h2>Etiqueta &lt; label &gt; &lt; /label &gt;</h2>
+	<p>Esta etiqueta que puede ser asociada a un control de formulario, y que se supone provee una descripción corta para éste. Los navegadores pueden enlazar ambos elementos permitiendo que los usuarios establezcan el enfoque sobre el control al hacer clic en su etiqueta. Tiene al siguiente sintaxis:</p>
+	<p>&lt; label &gt; Nombre de usuario: &lt; input type="text" name="usuario" &gt; &lt; /label &gt;</p>
+ 	<p>&lt; label &gt; Contraseña: &lt; input type="password" name="pass" &gt; &lt; /label &gt;</p>
+	<p><label>Nombre de usuario: <input type="text" name="usuario"></label></p>
+ 	<p><label>Contraseña: <input type="password" name="pass"></label></p>
+ 	<h2>Etiqueta &lt; mark &gt; &lt; /mark &gt;</h2>
+ 	<p>Esta estiqueta nos ayuda a resaltar un texto determinado, su sintaxis es la siguiente:</p>
+ 	<p>El ingeniero y Pencroft, &lt; mark &gt; cada uno armado con un arma de doble barril &lt; /mark &gt;, y Gideon Spilett cargando su rifle, no tenían más que comenzar.</p>
+	<P>El ingeniero y Pencroft, <mark>cada uno armado con un arma de doble barril</mark>, y Gideon Spilett cargando su rifle, no tenían más que comenzar.</P>
+	<h2>Etiqueta &lt; abbr &gt; &lt; /abbr &gt;</h2>
+	<p>Esta etiqueta nos ayuda a establecer una abrevitura o acronimo de palabras, se puede ver el significado al posar el mouse sobre el y tiene la siguiente sintaxis.</p>
+	<p>La &lt; abbr title="Organización Internacional de Normalización" >ISO &lt; /abbr > es el organismo encargado de promover el desarrollo de normas internacionales de fabricación (tanto de productos como de servicios), comercio y comunicación para todas las ramas industriales.</p>
+	<p>La <abbr title="Organización Internacional de Normalización">ISO</abbr> es el organismo encargado de promover el desarrollo de normas internacionales de fabricación (tanto de productos como de servicios), comercio y comunicación para todas las ramas industriales.</p>
+ 	<h2>Etiqueta &lt; var &gt; &lt; /var &gt;</h2>
+ 	<p>Esta etiqueta nos ayuda a representar a una variable, siendo ésta una varibale en una fórmula matemática o un código de computadora, una constante, un parámetro en una función, etc. Su sintaxis es.</p>
+ 	<p>...donde &lt; var >a&lt; /var > representa la longitud de la hipotenusa, y &lt; var >b&lt; /var > y &lt; var >c&lt;/var> representan las longitudes de los otros dos lados.</p>
+ 	<p>...donde <var>a</var> representa la longitud de la hipotenusa, y <var>b</var> y <var>c</var> representan las longitudes de los otros dos lados.</p>
+ 	<h2>Etiqueta &lt;sub&gt; &lt;/sub&gt;</h2>
+ 	<p>Esta etiqueta nos ayuda a poner un subindice, en este ejemplo nos ayudamos del uso de la etiqueta &lt;var> para declarar una variable y posterior ponerle un subindice con la siguiente sintaxis.</p>
+ 	<p>Encuentra &lt;var>R&lt;sub>in&lt;/sub>&lt;/var> y &lt;var>R&lt;sub>out&lt;/sub>&lt;/var> del Transistor de unión bipolar.</p>
+ 	<p>Encuentra <var>R<sub>in</sub></var> y <var>R<sub>out</sub></var> del Transistor de unión bipolar.</p>
+ 	<h2>Etiqueta &lt;sup&gt; &lt;/sup&gt;</h2>
+ 	<p>Esta etiqueta nos ayuda a poner un superindice, en este ejemplo nos ayudamos del uso de la etiqueta &lt;var> para declarar una variable y posterior ponerle un superindice con la siguiente sintaxis.</p>
+ 	<p>Fórmula &lt;var>E&lt;/var>=&lt;var>m&lt;/var>&lt;var>c&lt;/var>&lt;sup>2&lt;/sup>.</p>
+ 	<p>Fórmula <var>E</var>=<var>m</var><var>c</var><sup>2</sup>.</p>
+  	<h2>Etiqueta &lt;video&gt; &lt;/video&gt;</h2>
+  	<p>Esta etiqueta nos ayuda agregar video en nuestra pagina web, necesita parametros como la direccion del video y tambien el ancho y alto del video, su sintaxis es:</p>
+  	<p>&lt;video src=""C:\Users\USER\Desktop\mivideo.mp4"" width="384" height="288" controls>&lt;/video> </p>
+  	<p><video src="mivideo.mp4" width="384" height="288" controls></video></p>
+
+</body>
+</head>	
+</html>
